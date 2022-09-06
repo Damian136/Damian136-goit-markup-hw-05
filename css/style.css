@@ -470,10 +470,10 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 .footer-socialmedia-item:focus {
-  background-color: var(--blue-color);
+  background-color: var(--accent-color);
 }
 .footer-socialmedia-item:hover:hover svg {
-  fill: var(--second-color);
+  fill: var(--body-background-color);
 }
 .contact {
   font-size: 14px;
