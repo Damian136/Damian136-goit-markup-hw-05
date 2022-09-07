@@ -453,11 +453,13 @@ body {
   margin: 0;
 }
 .list-footer-socialmedia-menu {
+  fill: #ffffff;
   display: flex;
   padding-top: 20px;
   gap: 10px;
 }
 .footer-socialmedia-item {
+  fill: #ffffff;
   width: 40px;
   height: 40px;
   display: flex;
