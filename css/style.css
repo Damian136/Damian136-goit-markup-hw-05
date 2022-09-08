@@ -12,6 +12,7 @@
   --main-text-color: #212121;
   --color-icon: #afb1b8;
   --grey-line-color: #eeeeee;
+  --blue-color: rgba(33, 150, 243, 1);
 }
 .img {
   display: block;
@@ -628,14 +629,10 @@ body {
   position: absolute;
   width: 53px;
   height: 4px;
-  top: 46px;
-  left: 0px;
+  top: 76px;
+  left: 430px;
   background: var(--accent-color);
   border-radius: 2px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.agency-active:hover::after {
-  width: 100%;
-  left: 0;
 }
