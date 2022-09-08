@@ -623,7 +623,13 @@ body {
 .footer-socialmedia-svg {
   fill: #ffffff;
 }
-.agency-active {
+.active-agency::after {
+  content: "";
+  position: absolute;
+  width: 53px;
+  height: 4px;
+  top: 46px;
+  left: 0px;
   background: var(--accent-color);
   border-radius: 2px;
   transition-duration: 250ms;
