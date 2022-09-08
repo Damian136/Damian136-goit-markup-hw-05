@@ -623,7 +623,7 @@ body {
 .footer-socialmedia-svg {
   fill: #ffffff;
 }
-.active-agency::after {
+.agency-active::after {
   content: "";
   width: 0;
   height: 2px;
@@ -633,7 +633,7 @@ body {
   background: #f38181;
   transition: width 0.5s, left 0.5s;
 }
-.active-agency:hover::after {
+.agency-active:hover::after {
   width: 100%;
   left: 0;
 }
