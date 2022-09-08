@@ -84,6 +84,7 @@ body {
 .footer-navigation a {
   text-decoration: none;
   color: #ffffff;
+  fill: var(--body-background-color);
 }
 .navigation a:focus,
 .navigation a:hover,
@@ -621,4 +622,10 @@ body {
 }
 .footer-socialmedia-svg {
   fill: #ffffff;
+}
+.agency-active {
+  background: var(--accent-color);
+  border-radius: 2px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
