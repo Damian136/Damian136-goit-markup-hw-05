@@ -15,6 +15,7 @@
   --blue-color: rgba(33, 150, 243, 1);
 }
 .img {
+  object-fit: cover;
   display: block;
 }
 body {
@@ -284,10 +285,9 @@ body {
   padding-bottom: 50px;
 }
 .pictures {
-  border: 1px solid #eeeeee;
-  margin: 0px;
-  padding-bottom: 30px;
-  background: #ffffff;
+  object-fit: cover;
+  width: 270px;
+  height: 428px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -306,10 +306,13 @@ body {
   padding-top: 10px;
 }
 .selection-image {
+  object-fit: cover;
   display: flex;
   list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
   gap: 30px;
-  justify-content: center;
+  padding-bottom: 94px;
 }
 .navigation-footer-header {
   display: inline-block;
